@@ -12,14 +12,7 @@ namespace ws_mid3
             width = int.Parse(Console.ReadLine());
             heigth = int.Parse(Console.ReadLine());
             floor = int.Parse(Console.ReadLine());
-            int i, j, k,l,m,n;
-          /*  for (j = 0; j < heigth; j++) { 
-            for (i = 0; i < width; i++)
-            {
-                Console.Write(word);
-            }
-            Console.WriteLine();
-            }*/
+            int i, j, k;
             for (k = 1; k <= floor; k++)
             {
                 for (j = 0; j < heigth; j++)
